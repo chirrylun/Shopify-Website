@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+.sale{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.sale p{
+    font-weight: bold;
+}
+.sale ul{
+    display: flex;
+    
+}
+.sale ul li{
+    
+    margin: 10px;
+}
+.sale ul li a{
+    color: white;
+    font-weight: bold;
+}
+.sale i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+}
