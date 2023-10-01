@@ -156,7 +156,13 @@
 
 }
 .pick-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+.p1{
     width: 300px;
+    
 }
 .pick-items img {
   width: 300px;
